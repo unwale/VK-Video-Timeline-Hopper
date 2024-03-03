@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "VKVideo Timeline Hopper",
+    "description": "Estensione del browser per spostarsi rapidamente nella timeline in VK Video",
+    "version": "1.0.0",
+    "content_scripts": [
+      {
+        "matches": ["https://vk.com/video"],
+        "js": ["main.js"],
+        "world": "MAIN"
+      }
+    ]
+}
