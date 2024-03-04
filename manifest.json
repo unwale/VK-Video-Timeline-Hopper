@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "content_scripts": [
       {
-        "matches": ["https://vk.com/video"],
+        "matches": ["https://vk.com/*"],
         "js": ["main.js"],
         "world": "MAIN"
       }
